@@ -14,7 +14,11 @@ export default function CharacterCard(props: CharacterProbs) {
 
         return (
             <div>
-                <h1>{e.name}</h1>
+                <h6>{'Name:'+ e.name}</h6>
+                <h6>{'Status:'+e.status}</h6>
+                <h6>{'Species:'+e.species}</h6>
+                <h6>{'Geschlecht:'+e.gender}</h6>
+
                 <img src={e.image} className={"images"} alt="Pic not found"/>
                 <p>{e.id}</p>
 

@@ -1,0 +1,19 @@
+*{
+
+}
+
+.header{
+    color: #3dc09f;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.cards div{
+    border: 2px solid red;
+
+}
+
+

@@ -6,13 +6,16 @@
     color: #3dc09f;
 }
 .cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+    display: inline-grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+
+
 
 }
 .cards div{
     border: 2px solid red;
+    margin: 1rem;
 
 }
 

@@ -27,6 +27,18 @@
     box-shadow: 10px 15px 15px burlywood ;
 
 }
+h6{
+
+    color: cornflowerblue;
+    font-size: 15px;
+    padding: 0;
+    font-family: fantasy;
+}
+p{
+
+    font-size: 15px;
+
+}
 
 
 .images{

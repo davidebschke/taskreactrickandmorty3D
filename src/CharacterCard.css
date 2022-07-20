@@ -14,8 +14,24 @@
 
 }
 .cards div{
-    border: 2px solid red;
+    border: 2px solid burlywood;
     margin: 1rem;
+    background-image: url("https://i.pinimg.com/550x/ee/7e/a0/ee7ea0e80e017a844dee253d18672058.jpg");
+    background-position: center center;
+    border-radius: 30px 30px 30px 30px;
+    ;
+    transform-style: preserve-3d;
+    transform: rotateY(360deg)rotateX(30deg)rotateY(40deg);
+    transform-style: revert;
+    transform-box: border-box;
+    box-shadow: 10px 15px 15px burlywood ;
+
+}
+
+
+.images{
+
+
 
 }
 
